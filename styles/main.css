@@ -1,0 +1,720 @@
+
+
+.aboutcenter {
+	align-items: center;
+	justify-content: center;
+}
+
+.abouttext {
+	font-size: 1.05vw;
+}
+
+.specificationtext {
+	font-size: 1.25vw;
+	font-weight: 300;
+}
+
+.introtext {
+	font-size: 1.5vw;
+	font-weight: 300;
+}
+
+
+.introtextmobile {
+	font-size: 4.0vw;
+	font-weight: 300;
+}
+
+
+.toptitle {
+	font-size: 3.75vw;
+	font-weight: 600;
+	font-family: "Cantarell";
+}
+
+
+.toptitlemobile {
+	font-size: 9.0vw;
+	font-weight: 600;
+	font-family: "Cantarell";
+}
+
+.contacttext {
+	font-size: 2.25vw;
+}
+
+.boldtext {
+	font-weight: bold;
+}
+
+
+.boldtextmobile {
+	font-weight: bold;
+	font-size: 3.5vw;
+}
+
+.aboutimage {
+	justify-content: center;
+	align-items: center;
+	margin-left: 2vw;
+	margin-right: -3vw;
+}
+
+.skilltitle {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.30vw;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.tasktitle {
+	font-size: 1.30vw;
+	padding-top: 0.3vw;
+	padding-bottom: 0.3vw;
+}
+
+.halfbr {
+	font-size: 0.50vw;
+}
+
+.projtitle {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.50vw;
+	padding-bottom: 0.6vw;
+}
+
+a:hover {
+	color: #000000;
+}
+
+a {
+	color: #000000;
+	font-weight: 600;
+}
+
+.projectcolumn {
+	margin-left: 4vw;
+	margin-right: 4vw;
+}
+
+
+.skillextraoffset{
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+
+.fiximg {
+	width: 4vw;
+	height: 4vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fiximgvr {
+	width: 8vw;
+	height: 8vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fiximgar {
+	width: 5vw;
+	height: 5vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fiximgvrmobile {
+	width: 20vw;
+	height: 20vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fiximgarmobile {
+	width: 14vw;
+	height: 14vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fixwideimg {
+	width: 24vw;
+	height: 16vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fixsquarebigimg {
+	width: 16vw;
+	height: 16vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skillsubtitle {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.20vw;
+}
+
+
+.tasksubtitle {
+	font-size: 1.20vw;
+}
+
+.center {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.centerwrapper {
+	margin: auto;
+	width: 100%;
+}
+
+.centerskills {
+	justify-content: center;
+	text-align: center;
+}
+.footstyle {
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+.footstylemobiletext {
+	font-size: 4vw;
+}
+
+.midtext {
+	padding-top: 24px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.imgcenter {
+	text-align:center;
+	width:1vw;
+	display:block;
+	margin:auto;
+}
+
+.navbuttons {
+	padding-top: 1.5vw;
+	padding-bottom: 2vw;
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+}
+
+.navbar-brand {
+	margin-top: -1.2rem;
+}
+
+.navbutton {
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	font-size: 1.1vw;
+	font-weight: 600;
+}
+
+.navbuttonmobile {
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	font-size: 3.5vw;
+	font-weight: 600;
+}
+
+.navigationcss {
+	height: 4rem;
+}
+
+
+.projectcards {
+	border-top-left-radius: calc(2.5vw - 0.1px);
+	border-top-right-radius: calc(2.5vw - 0.1px);
+	border-bottom-left-radius: calc(1.5vw - 0.1px);
+	border-bottom-right-radius: calc(1.5vw - 0.1px);
+}
+
+
+.linkedinbutton {
+	border-left: 0.15vw solid;
+	border-right: 0.15vw solid;
+	border-top: 0.15vw solid;
+	border-bottom: 0.15vw solid;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	border-color: #007bb6;
+	color: #007bb6;
+	font-size: 1.2vw;
+	font-weight: 200;
+}
+
+.linkedinbuttonmobile {
+	border-left: 0.15vw solid;
+	border-right: 0.15vw solid;
+	border-top: 0.15vw solid;
+	border-bottom: 0.15vw solid;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	border-color: #007bb6;
+	color: #007bb6;
+	font-size: 4.5vw;
+	font-weight: 200;
+}
+
+
+.linkbox {
+	border-left: 0.07vw solid;
+	border-right: 0.07vw solid;
+	border-top: 0.07vw solid;
+	border-bottom: 0.07vw solid;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	margin-left: 5.5vw;
+	margin-right: 5.5vw;
+	border-color: #000000;
+	color: #000000;
+}
+
+.linkboxmobile {
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	margin-left: 20.5vw;
+	margin-right: 20.5vw;
+	border-color: #000000;
+	color: #000000;
+}
+
+
+.boxshadow {
+	box-shadow: 1.6vw 2.3vw 11vw 0 rgba(16, 16, 16, 0.15);
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+	border-radius: 1vw;
+}
+
+.viewproject {
+	color: #000000;
+	text-align: right;
+}
+
+.projectimage {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.imagecontainer:hover .projectimage {
+  opacity: 0.6;
+}
+
+.titlebar {
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	border-top: 0.2vw solid #ffffff;
+	border-bottom: 0.2vw solid #ffffff;
+	outline: 0.6vw solid #ffffff;
+}
+
+.titlebartitle {
+	font-size: 5.0vw;
+	font-weight: 200;
+}
+
+.titlebartitlemobile {
+	font-size: 10.0vw;
+	font-weight: 200;
+}
+
+.spectitle {
+	font-size: 1.5vw;
+	font-weight: 400;
+}
+
+.spectext {
+	font-size: 1.0vw;
+	font-weight: 400;
+}
+
+
+.spectitlemobile {
+	font-size: 5.0vw;
+	font-weight: 400;
+}
+
+.spectextmobile {
+	font-size: 3.6vw;
+	font-weight: 400;
+}
+
+
+.aboutme {
+	font-size: 1.4vw;
+	font-weight: 300;
+}
+
+
+
+.card-content {
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
+}
+
+.tone-1 {
+	background-color: #ffffff;
+	background-image: url("../theme/titlesbg.jpg");
+	background-position: center;
+	background-repeat: repeat;
+}
+.tone-2 {
+	background-color: #ffffff; 
+	background-image: url("../theme/basebg.jpg");
+	background-position: center;
+	background-repeat: repeat;
+}
+.tone-3 {
+	background-color: #ffffff;
+	background-image: url("../theme/boxbg.jpg");
+	background-position: center;
+	background-repeat: repeat;
+}
+.tone-4 {
+	background-color: #ffffff;
+}
+.tone-5 {
+	background-color: #ffffff;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.banner-main {
+	background-image: url("../theme/bannerbg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.banner-mobile {
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.banner-main-vr {
+	background-image: url("../theme/bannerbgvr.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.banner-main-ar {
+	background-image: url("../theme/bannerbgar.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.banner-main-gamedev {
+	background-image: url("../theme/bannerbggamedev.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+body {
+	background-color: #ffffff;
+	background-image: url("../theme/basebg.jpg");
+	background-position: center;
+	font-size: 1vw;
+	overflow-y: hidden;
+	color: #000000;
+	overflow-x: hidden;
+}
+.scroll {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+	scroll-snap-stop: always;
+}
+
+
+
+.scrollanchor {
+	width: 1vh;
+	height: 0vh;
+	scroll-snap-align: start;
+	background-size: cover;
+}
+
+.scrollanchoradd {
+	scroll-snap-align: start;
+	background-size: cover;
+}
+.scrollanchorend {
+	scroll-snap-align: end;
+	background-size: cover;
+}
+
+
+
+.videocontainer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    margin: auto;
+    padding-bottom: 56.25%;
+}
+
+.squarevideocontainer {
+    position: relative;
+    width: 16vw;
+    height: 16vw;
+    margin: auto;
+    padding-bottom: 56.25%;
+}
+
+.mobilevideocontainer {
+    position: relative;
+    width: 73%;
+    height: 24vw;
+    margin: auto;
+    padding-bottom: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.projecttitle {
+	font-size: 1.35vw;
+	font-weight: 600;
+}
+
+.projectsubtitle {
+	padding-bottom: 0.5rem;
+	font-size: 0.85vw;
+}
+
+
+
+.projecttitlemobile {
+	font-size: 3.15vw;
+	font-weight: 600;
+}
+
+.projectsubtitlemobile {
+	padding-bottom: 0.5vw;
+	font-size: 2.75vw;
+}
+
+.projecttag {
+	padding-bottom: 0.5rem;
+	font-size: 1.0vw;
+	background-color: orange;
+	font-weight: 300;
+	width: auto;
+	padding: 0.5vw 0.5vw 0.5vw 0.5vw;
+	height: 1.5vw;
+	line-height: 0.5vw;
+	border-top-left-radius: calc(1.5vw - 1px);
+	border-top-right-radius: calc(1.5vw - 1px);
+	border-bottom-left-radius: calc(1.5vw - 1px);
+	border-bottom-right-radius: calc(1.5vw - 1px);
+}
+
+.roundedimagetop {
+	border-top-left-radius: calc(2.5vw - 1px);
+	border-top-right-radius: calc(2.5vw - 1px);
+	height = 320vw;
+	width = 320vw;
+}
+
+
+
+
+#image-1 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#image-1:hover {opacity: 0.7;}
+
+#image-2 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#image-2:hover {opacity: 0.7;}
+
+#image-3 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#image-3:hover {opacity: 0.7;}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 65vw;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+.card-content {
+	padding-top: 0.8vw;
+	padding-bottom: 0.8vw;
+}
+
+.filterDiv {
+	display: none; /* Hidden by default */
+	width: 16.5vw;
+	height: 23vw;
+	margin: 0.5vw;
+}
+
+.filterDivMobile {
+	width: 36vw;
+	height: 48vw;
+	margin: 2.0vw;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: inline-block;
+}
+
+.filtercontainer {
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+/* Style the buttons */
+.btn {
+  border: 0.06vw solid;
+  outline: none;
+  font-weight: 600;
+  font-size: 0.85vw;
+  padding: 0.8vw 1.1vw;
+  background-color: #c5c5c5;
+  color: #949494;
+  cursor: pointer;
+}
+
+.btnmobile {
+  font-size: 3.5vw;
+  padding: 1.2vw 1.5vw;
+  font-weight: 600;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #ffffff;
+  color: black;
+}
+
