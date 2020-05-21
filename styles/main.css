@@ -50,7 +50,7 @@
 
 .boldtextmobile {
 	font-weight: bold;
-	font-size: 3.5vw;
+	font-size: 4.0vw;
 }
 
 .aboutimage {
@@ -354,6 +354,12 @@ a {
 	font-weight: 400;
 }
 
+
+.projectpagesubtitlemobile {
+	font-size: 6.0vw;
+	font-weight: 400;
+}
+
 .spectextmobile {
 	font-size: 3.6vw;
 	font-weight: 400;
@@ -494,13 +500,35 @@ body {
     padding-bottom: 56.25%;
 }
 
-.mobilevideocontainer {
-    position: relative;
-    width: 73%;
-    height: 24vw;
-    margin: auto;
-    padding-bottom: 56.25%;
+
+
+.mobile-video-container{
+  width:100%;
+  height:58vw;
+  overflow:hidden;
+  position:relative;
 }
+
+
+.mobile-video-container iframe,{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-video-container iframe, {
+  pointer-events: none;
+}
+.mobile-video-container iframe{
+  position: absolute;
+  top: -14vw;
+  margin: 0vw;
+  width: 100%;
+  height: calc(100% + 25vw);
+}
+
 
 .video {
     position: absolute;
@@ -508,7 +536,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    display: block;
+    margin: 0 auto;
 }
+
+
+
 
 .projecttitle {
 	font-size: 1.35vw;
