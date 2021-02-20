@@ -235,10 +235,12 @@ a {
 
 
 .projectcards {
-	border-top-left-radius: calc(2.5vw - 0.1px);
-	border-top-right-radius: calc(2.5vw - 0.1px);
-	border-bottom-left-radius: calc(1.5vw - 0.1px);
-	border-bottom-right-radius: calc(1.5vw - 0.1px);
+	border-top-left-radius: calc(0.2vw - 0.1px);
+	border-top-right-radius: calc(0.2vw - 0.1px);
+	border-bottom-left-radius: calc(0.2vw - 0.1px);
+	border-bottom-right-radius: calc(0.2vw - 0.1px);
+
+	box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 2px rgba(10, 10, 10, 0.2);
 }
 
 
@@ -581,8 +583,8 @@ body {
 }
 
 .roundedimagetop {
-	border-top-left-radius: calc(2.5vw - 1px);
-	border-top-right-radius: calc(2.5vw - 1px);
+	border-top-left-radius: calc(0.2vw - 1px);
+	border-top-right-radius: calc(0.2vw - 1px);
 	height = 320vw;
 	width = 320vw;
 }
@@ -701,7 +703,7 @@ body {
 	display: none; /* Hidden by default */
 	width: 16.5vw;
 	height: 23vw;
-	margin: 0.5vw;
+	margin: 0.7vw;
 }
 
 .filterDivMobile {
