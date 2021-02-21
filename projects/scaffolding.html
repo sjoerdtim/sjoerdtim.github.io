@@ -64,7 +64,7 @@
 
 				<h1 class="title is-3 center" style="padding-bottom: 0.5vw;">
 					<div class="has-text-black titlebartitle">
-						<strong>Scaffolding Training</strong>
+						<strong>Scaffolding Trainer</strong>
 					</div>
 				</h1>
 
@@ -80,7 +80,17 @@
 									<div class="box skilltitle tone-4 has-text-black" style="margin: 0vw; margin-bottom: 1.5vw;">
 										<strong><div class="has-text-black">IMAGES</div></strong>
 									</div>
+									<div class="center">
+										<img id="image-1" src="../images/projects/scaffolding/image-1.jpg" alt="The information screen" height="100%" width="100%">
+									</div>
 
+									<div class="center">
+										<img id="image-2" src="../images/projects/scaffolding/image-2.jpg" alt="The scaffolding being almost completed" height="100%" width="100%">
+									</div>
+
+									<div class="center">
+										<img id="image-3" src="../images/projects/scaffolding/image-3.jpg" alt="A glimpse of the environment" height="100%" width="100%">
+									</div>
 								</div>
 
 							</div>
@@ -88,10 +98,13 @@
 							<div class="column is-8" style="padding-left: 1.25vw; padding-right: 1.25vw;">
 								<div class="box tone-3 has-text-black boxshadow" style="margin: 0vw; margin-bottom: 1.5vw;">
 									<div class="box skilltitle tone-4 has-text-black" style="margin: 0vw; margin-bottom: 1.5vw;">
-										 <strong><div class="has-text-black">ABOUT THE TRAINING</div></strong>
+										 <strong><div class="has-text-black">ABOUT THE PROJECT</div></strong>
 									</div>
 									<div class="content abouttext">
-										This page is still under construction...
+										The Scaffolding Trainer Demo is a project I made as a freelance assignment for Logistic Workx, before I got employed there. I only had 3 workdays to create a functioning demo.
+										<br><br>
+										This project was received so well, that it led to be being hired as VR-developer after completion. Due to this project being property of Logistic Workx, I can't go into technical details.
+										<br>
 									</div>
 								</div>
 
@@ -100,9 +113,23 @@
 										<strong><div class="has-text-black">SPECIFICATIONS</div></strong>
 									</div>
 
-									<div class="columns centerskills is-variable is-4 is-mobile">
+									<div class="columns centerskills is-variable is-4 is-mobile is-centered">
 
 
+										<div class="column is-3 boldtext">
+											<div class="halfbr"><br></div><figure class="image fiximg"><img src="../images/icons/unity.png"><br></figure>
+											<div class="halfbr"><br></div>Made in Unity
+										</div>
+
+										<div class="column is-5 boldtext">
+											<div class="halfbr"><br></div><figure class="image fiximg"><img src="../images/icons/oculus.png"><br></figure>
+											<div class="halfbr"><br></div>Made for the Oculus Quest
+										</div>
+
+										<div class="column is-3 boldtext">
+											<div class="halfbr"><br></div><figure class="image fiximg"><img src="../images/icons/clock.png"><br></figure>
+											<div class="halfbr"><br></div>3 days
+										</div>
 									</div>
 								</div>
 
@@ -113,7 +140,9 @@
 										<strong><div class="has-text-black">TRAILER</div></strong>
 									</div>
 									<div class="videocontainer">
-
+									 <iframe
+									src="https://www.youtube-nocookie.com/embed/LpCDJH41jT8" frameborder="0" allowFullScreen="allowFullScreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" class="video">
+									</iframe> 
 									</div>
 								</div>
 							</div>
@@ -123,44 +152,7 @@
 				<div id="contact"></div>
 			</section>
 
-
 			<div id="mywork"></div>
-
-			<!-- SKILLS INFO -->
-
-			<section class="section tone-2" style="padding-bottom: 1.5vw; padding-top: 2.5vw;">
-				<h1 class="title is-3">
-					<div class="has-text-black center titlebartitle" style="padding-bottom: 1.5vw;">
-						<strong>My Work</strong>
-					</div>
-				</h1>
-
-				<div class="columns is-12 is-mobile">
-
-					<div class="column is-4" style="padding-left: 1.25vw;padding-right: 1.25vw;">
-						<div class="box tone-3 has-text-black boxshadow" style="padding: 2vw;">
-							<div class="box skilltitle tone-4 has-text-black" style="margin: 0vw; margin-bottom: 1.5vw;">
-								<strong><div class="has-text-black">MY RESPONSIBILITIES</div></strong>
-							</div>
-						</div>
-
-					</div>
-
-
-					<div class="column is-8" style="padding-left: 1.25vw;padding-right: 1.25vw;">
-						<div class="box tone-3 has-text-black boxshadow" style="padding: 2vw;">
-							<div class="box skilltitle tone-4 has-text-black" style="margin: 0vw; margin-bottom: 2.5vw;">
-								<strong><div class="has-text-black">MY WORK HIGHLIGHT</div></strong>
-							</div>
-
-							<div class="columns is-mobile" style="padding-bottom: 0; padding-top: 0; margin: -1vw;">
-						</div>
-					</div>
-				</div>
-
-
-			</section>
-
 
 			<!-- FOOTER -->
 
@@ -180,6 +172,13 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+				<!-- Full screen images modal -->
+		<div id="fullScreenImages" class="modal">
+		  <span class="close">&times;</span>
+		  <img class="modal-content" id="images">
+		  <div id="caption"></div>
 		</div>
 
 
@@ -254,7 +253,7 @@
 
 				<h1 class="title is-3 center" style="padding-top: 2.0vw; padding-bottom: 5vw;">
 					<div class="has-text-black titlebartitlemobile">
-						<strong>Scaffolding Training</strong>
+						<strong>Scaffolding Trainer</strong>
 					</div>
 				</h1>
 
@@ -264,6 +263,9 @@
 					<div style="margin-left: 4vw; margin-right: 4vw; margin-top: 2vw; margin-bottom: 2vw">
 					<div class="mobile-video-container center" >
 						<div class="mobile-video-foreground center">
+							<iframe
+							src="https://www.youtube-nocookie.com/embed/LpCDJH41jT8" frameborder="0" allowFullScreen="allowFullScreen" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;" class="video">
+							</iframe> 
 						</div>             
 					</div>
 					</div>
@@ -271,9 +273,12 @@
 				</div>
 
 				<div class="spectextmobile" style="padding-left: 5vw; padding-right: 5vw; padding-top: 10.0vw; padding-bottom: 10.0vw">
-					<div class="center projectpagesubtitlemobile"></i>ABOUT THE APPLICATION</div>
+					<div class="center projectpagesubtitlemobile"></i>ABOUT THE PROJECT</div>
 					<br><br>
-					This page is still under construction...
+					I have always loved playing Star Wars games and was interested in trying to create one myself. As a challenge to get more into Unity networking and also so I have another party game to play with my friends online, I decided to create my own spaceship-dogfighting game, based off a prototype I made years ago.
+					<br><br>
+					As the programming for the game itself wasn't too complicated, I wanted to challenge myself by forcing myself to create the 3D models required for the game. All of the ships and levels for this game were made by me.
+					<br>
 				</div>
 
 
@@ -281,7 +286,17 @@
 					<div class="center projectpagesubtitlemobile"></i>IMAGES</div>
 					<br><br>
 					<div class="tone-3 centerskills has-text-black">
+						<div class="center">
+							<img src="../images/projects/scaffolding/image-1.jpg" alt="The information screen" height="100%" width="100%">
+						</div>
 
+						<div class="center">
+							<img src="../images/projects/scaffolding/image-2.jpg" alt="The scaffolding being almost completed" height="100%" width="100%">
+						</div>
+
+						<div class="center">
+							<img src="../images/projects/scaffolding/image-3.jpg" alt="A glimpse of the environment" height="100%" width="100%">
+						</div>
 					</div>
 				</div>
 
@@ -290,24 +305,29 @@
 					<div class="center projectpagesubtitlemobile"></i>SPECIFICATIONS</div>
 					<br><br>
 
-					<div class="columns is-variable is-4 is-mobile" style="font-weight: bold;">
+					<div class="columns is-variable is-4 is-mobile is-centered" style="font-weight: bold;">
+						<div class="column is-6 boldtextmobile">
+							<div class="halfbr"><br></div><figure class="image fiximgarmobile"><img src="../images/icons/unity.png"><br></figure>
+							<div class="halfbr"><br></div>Made in Unity
+						</div>
+
+						<div class="column is-6 boldtextmobile">
+							<div class="halfbr"><br></div><figure class="image fiximgarmobile"><img src="../images/icons/clock.png"><br></figure>
+							<div class="halfbr"><br></div>3 days
+						</div>
+					</div>
+
+					<div class="columns is-variable is-4 is-mobile is-centered" style="font-weight: bold;">
+						<div class="column is-8 boldtextmobile">
+							<div class="halfbr"><br></div><figure class="image fiximgarmobile"><img src="../images/icons/oculus.png"><br></figure>
+							<div class="halfbr"><br></div>Made for the Oculus Quest
+						</div>
 					</div>
 
 					<br>
 
 				</div>
 
-
-				<div class="spectextmobile" style="padding-left: 5vw; padding-right: 5vw; padding-top: 10.0vw; padding-bottom: 10.0vw">
-					<div class="center projectpagesubtitlemobile"></i>MY RESPONSIBILITIES</div>
-					<br><br>
-				</div>
-
-				<div class="spectextmobile" style="padding-left: 5vw; padding-right: 5vw; padding-top: 10.0vw; padding-bottom: 10.0vw">
-					<div class="center projectpagesubtitlemobile"></i>MY WORK HIGHLIGHT</div>
-					<br><br>
-
-				</div>
 
 			</section>
 			<br><br><br><br><br>
@@ -377,66 +397,67 @@ function showSlides(n) {
 </script>
 
 
-<style>
-	* {box-sizing:border-box}
+<script>
+// Get the modal
+var modal = document.getElementById('fullScreenImages');
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img1 = document.getElementById('image-1');
+var img2 = document.getElementById('image-2');
+var img3 = document.getElementById('image-3');
+
+var modalImg = document.getElementById("images");
+var captionText = document.getElementById("caption");
+
+img1.onclick = function(){
+	modal.style.display = "block";
+	modalImg.src = this.src;
+	captionText.innerHTML = this.alt;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+img2.onclick = function(){
+	modal.style.display = "block";
+	modalImg.src = this.src;
+	captionText.innerHTML = this.alt;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -3.5vw;
-  padding: 0px;
-  color: white;
-  font-weight: bold;
-  font-size: 1.5vw;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-
+img3.onclick = function(){
+	modal.style.display = "block";
+	modalImg.src = this.src;
+	captionText.innerHTML = this.alt;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+document.onkeydown = function(evt) {
+	evt = evt || window.event;
+	if (evt.keyCode == 27) {
+		modal.style.display = "none";
+	}
+	if (evt.keyCode == 39 && modal.style.display != "none") {
+		if (modalImg.src == img1.src) {
+			img2.onclick();
+		} else if (modalImg.src == img2.src) {
+			img3.onclick();
+		} else if (modalImg.src == img3.src) {
+			img1.onclick();
+		}
+	}
+
+	if (evt.keyCode == 37 && modal.style.display != "none") {
+		if (modalImg.src == img1.src) {
+			img3.onclick();
+		} else if (modalImg.src == img2.src) {
+			img1.onclick();
+		} else if (modalImg.src == img3.src) {
+			img2.onclick();
+		} 
+	}
+};
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
 }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0);
-}
-
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-</style>
+</script>
