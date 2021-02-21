@@ -240,7 +240,8 @@ a {
 	border-bottom-left-radius: calc(0.2vw - 0.1px);
 	border-bottom-right-radius: calc(0.2vw - 0.1px);
 
-	box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 2px rgba(10, 10, 10, 0.2);
+	border: solid 1px;
+	box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
 }
 
 
