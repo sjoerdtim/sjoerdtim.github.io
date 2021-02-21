@@ -707,6 +707,20 @@ body {
 	margin: 0.7vw;
 }
 
+.noProjectsText {
+	display: none; /* Hidden by default */
+	font-size: 1.3vw;
+}
+
+.noProjectsTextMobile {
+	display: none; /* Hidden by default */
+	font-size: 3.1vw;
+}
+
+.filterTextMobile {
+	font-size: 2vw;
+}
+
 .filterDivMobile {
 	width: 36vw;
 	height: 48vw;
